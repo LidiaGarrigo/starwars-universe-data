@@ -53,7 +53,7 @@
             "nameEs": "Sombra de Jade",
             "model": "Horizon Class Star Yacht",
             "descriptionEn":"This ship stands out for its slender length. The length of the spacecraft is: 55, while its width is: 27",
-            "descriptionEs":"Esta nave destaca por su estilizado largo. The length of the spacecraft is: 55, while its width is: 27",
+            "descriptionEs":"Esta nave destaca por su estilizado largo. La longitud de la nave es: 55, mientras que su anchura es: 27",
             "urlImage": "../../assets/img/ships/jade_shadow.png"
         }
     ],
