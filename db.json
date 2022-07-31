@@ -4,14 +4,9 @@
             "id": 1,
             "name": "Chewbacca",
             "titleDescriptionEn":"Chewbacca, known affectionately to his friends as Chewie, was a Wookiee male warrior, smuggler, mechanic, pilot, and resistance fighter",
-            "descriptionEn": "He fought in the Clone Wars, the Galactic Civil War, the Cold War, and the subsequent First Order-Resistance War. He hailed from the planet Kashyyyk and became a Wookiee military leader. During the Clone Wars, he was captured by Trandoshan slavers and held captive on Wasskah, but he worked with a fellow captive, Jedi Commander Ahsoka Tano, to escape. He later commanded Wookiee forces of the Kachirho Wookiee Militia during the Battle of Kashyyyk alongside the Grand Army of the Republic, led by Jedi General Yoda.",
             "titleDescriptionEs": "Chewbacca, conocido cariñosamente por sus amigos como Chewie, era un guerrero wookiee, contrabandista, mecánico, piloto y luchador de la resistencia",
+            "descriptionEn": "He fought in the Clone Wars, the Galactic Civil War, the Cold War, and the subsequent First Order-Resistance War. He hailed from the planet Kashyyyk and became a Wookiee military leader. During the Clone Wars, he was captured by Trandoshan slavers and held captive on Wasskah, but he worked with a fellow captive, Jedi Commander Ahsoka Tano, to escape. He later commanded Wookiee forces of the Kachirho Wookiee Militia during the Battle of Kashyyyk alongside the Grand Army of the Republic, led by Jedi General Yoda.",
             "descriptionEs": "Luchó en las Guerras Clon, la Guerra Civil Galáctica, la Guerra Fría y la posterior Guerra de la Primera Orden y la Resistencia. Procedía del planeta Kashyyyk y se convirtió en un líder militar wookiee. Durante las Guerras Clon, fue capturado por esclavistas trandoshanos y mantenido cautivo en Wasskah, pero colaboró con una compañera de cautiverio, la comandante Jedi Ahsoka Tano, para escapar. Más tarde dirigió las fuerzas wookiee de la Milicia Wookiee Kachirho durante la Batalla de Kashyyyk junto al Gran Ejército de la República, dirigido por el general jedi Yoda",
-            "speciesEn": "Wookie",
-            "speciesEs": "Wookie",
-            "genderEn": "Male",
-            "genderEs": "Masculino",
-            "planet": "Kashyyyk",
             "urlImage": "../../assets/img/smugglers/chewbacca.png",
             "detailImage": "../../assets/img/smugglers/chewbacca-detail.png",
             "planetid": 2,
@@ -19,16 +14,23 @@
         },
         {
             "id": 2,
+            "name": "Han Solo",
+            "titleDescriptionEn":"Han Solo, known only as Han until being given the surname Solo by an Imperial recruitment officer",
+            "titleDescriptionEs":"Han Solo, conocido sólo como Han hasta que un oficial de reclutamiento imperial le dio el apellido Solo",
+            "descriptionEn": "Formerly known as Cadet 124-329 while serving as an Imperial cadet, was a human male smuggler. He became a leader in the Alliance to Restore the Republic and an instrumental figure in the defeat of the Galactic Empire during the Galactic Civil War. He hailed from Corellia and became a smuggler, even completing the Kessel Run in just twelve parsecs with his prized ship, the Millennium Falcon, and coming under the employ of Jabba the Hutt.",
+            "descriptionEs": "Anteriormente conocido como Cadete 124-329 mientras servía como cadete imperial, era un contrabandista humano. Se convirtió en un líder de la Alianza para Restaurar la República y en una figura fundamental en la derrota del Imperio Galáctico durante la Guerra Civil Galáctica. Procedía de Corellia y se convirtió en contrabandista, llegando a completar la Carrera de Kessel en sólo doce parsecs con su preciada nave, el Halcón Milenario, y quedando a las órdenes de Jabba el Hutt",
+            "urlImage": "../../assets/img/smugglers/han-solo.png",
+            "detailImage": "../../assets/img/smugglers/han-solo-detail.png",
+            "planetid": 1,
+            "shipid": 1
+        },
+        {
+            "id": 3,
             "name": "Jade Skywalker",
             "titleDescriptionEn":"She was raised as a servant of Emperor Palpatine and went on to become a high-level agent capable of using the Force",
-            "descriptionEn": "Mara Jade Skywalker was during different stages of her life, a Hand of the Emperor, a smuggler, and later a Jedi Master as part of the Jedi High Council.",
             "titleDescriptionEs":"Fue criada como servidora del Emperador Palpatine y llegó a convertirse en una agente de alto nivel capaz de usar la Fuerza",
+            "descriptionEn": "Mara Jade Skywalker was during different stages of her life, a Hand of the Emperor, a smuggler, and later a Jedi Master as part of the Jedi High Council.",
             "descriptionEs": "Mara Jade Skywalker fue durante diferentes etapas de su vida, una Mano del Emperador, una contrabandista, y más tarde una Maestra Jedi formando parte del Alto Consejo Jedi.",
-            "speciesEn": "Human",
-            "speciesEs": "Humana",
-            "genderEn": "Female",
-            "genderEs": "Femenino",
-            "planet": "Coruscant",
             "urlImage": "../../assets/img/smugglers/mara-jade.png",
             "detailImage": "../../assets/img/smugglers/mara-jade-detail.png",
             "planetid": 3,
@@ -41,8 +43,8 @@
             "nameEn": "Millenium Falcon",
             "nameEs": "Halcón Milenario",
             "model": "YT-1300fp light freighter",
-            "lenght": 34.75,
-            "width": 25.61,
+            "descriptionEn":"Great ship of incredible dimensions. The length of the spacecraft is: 34.75, while its width is: 25.61",
+            "descriptionEs":"Gran nave de increíbles dimensiones. La longitud de la nave es: 34,75, mientras que su anchura es: 25,61",
             "urlImage": "../../assets/img/ships/falcon.png"
         },
         {
@@ -50,8 +52,8 @@
             "nameEn": "Jade Shadow",
             "nameEs": "Sombra de Jade",
             "model": "Horizon Class Star Yacht",
-            "lenght": 55,
-            "width": 27,
+            "descriptionEn":"This ship stands out for its slender length. The length of the spacecraft is: 55, while its width is: 27",
+            "descriptionEs":"Esta nave destaca por su estilizado largo. The length of the spacecraft is: 55, while its width is: 27",
             "urlImage": "../../assets/img/ships/jade_shadow.png"
         }
     ],
@@ -59,27 +61,29 @@
         {
             "id": 1,
             "name": "Corellia",
-            "region": "Core Worlds",
-            "orbitalPosition": 4,
-            "distanceCore": 8.000,
+            "titleDescriptionEn": "This planet belongs to the region Core Worlds",
+            "titleDescriptionEs": "Este planeta pertenece a la region Core Worlds",
+            "descriptionEn": "The orbital position of the planet is: 4, while its distance from the core is 8.000 light-years.",
+            "descriptionEs": "La posición orbital del planeta es 4, mientras que su distancia al núcleo es de 8.000 años luz.",
             "urlImage": "../../assets/img/planets/corellia.png"
         },
         {
             "id": 2,
             "name": "Hoth",
-            "region": "Outer Rim Territories",
-            "orbitalPosition": 6,
-            "distanceCore": 50.250,
+            "titleDescriptionEn": "This planet belongs to the region Outer Rim Territories",
+            "titleDescriptionEs": "Este planeta pertenece a la region Outer Rim Territories",
+            "descriptionEn": "The orbital position of the planet is: 6, while its distance from the core is 50.250 light-years.",
+            "descriptionEs": "La posición orbital del planeta es 6, mientras que su distancia al núcleo es de 50.250 años luz.",
             "urlImage": "../../assets/img/planets/hoth.png"
         },
         {
             "id": 3,
             "name": "Coruscant",
-            "region": "Mundos del Núcleo",
-            "orbitalPosition": 6,
-            "distanceCore": 10.000,
+            "titleDescriptionEn": "This planet belongs to the region Outer Mundos del Núcleo",
+            "titleDescriptionEs": "Este planeta pertenece a la region Outer Mundos del Núcleo",
+            "descriptionEn": "The orbital position of the planet is: 6, while its distance from the core is 10.000 light-years.",
+            "descriptionEs": "La posición orbital del planeta es 6, mientras que su distancia al núcleo es de 10.000 años luz.",
             "urlImage": "../../assets/img/planets/coruscant.png"
         }
     ]
-
 }
