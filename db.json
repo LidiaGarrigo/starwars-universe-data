@@ -3,6 +3,8 @@
         {
             "id": 1,
             "name": "Chewbacca",
+            "speciesEn": "Wookie",
+            "speciesEs": "Wookie",
             "titleDescriptionEn":"Chewbacca, known affectionately to his friends as Chewie, was a Wookiee male warrior, smuggler, mechanic, pilot, and resistance fighter",
             "titleDescriptionEs": "Chewbacca, conocido cariñosamente por sus amigos como Chewie, era un guerrero wookiee, contrabandista, mecánico, piloto y luchador de la resistencia",
             "descriptionEn": "He fought in the Clone Wars, the Galactic Civil War, the Cold War, and the subsequent First Order-Resistance War. He hailed from the planet Kashyyyk and became a Wookiee military leader. During the Clone Wars, he was captured by Trandoshan slavers and held captive on Wasskah, but he worked with a fellow captive, Jedi Commander Ahsoka Tano, to escape. He later commanded Wookiee forces of the Kachirho Wookiee Militia during the Battle of Kashyyyk alongside the Grand Army of the Republic, led by Jedi General Yoda.",
@@ -15,6 +17,8 @@
         {
             "id": 2,
             "name": "Han Solo",
+            "speciesEn": "Human",
+            "speciesEs": "Humano",
             "titleDescriptionEn":"Han Solo, known only as Han until being given the surname Solo by an Imperial recruitment officer",
             "titleDescriptionEs":"Han Solo, conocido sólo como Han hasta que un oficial de reclutamiento imperial le dio el apellido Solo",
             "descriptionEn": "Formerly known as Cadet 124-329 while serving as an Imperial cadet, was a human male smuggler. He became a leader in the Alliance to Restore the Republic and an instrumental figure in the defeat of the Galactic Empire during the Galactic Civil War. He hailed from Corellia and became a smuggler, even completing the Kessel Run in just twelve parsecs with his prized ship, the Millennium Falcon, and coming under the employ of Jabba the Hutt.",
@@ -27,6 +31,8 @@
         {
             "id": 3,
             "name": "Jade Skywalker",
+            "speciesEn": "Human",
+            "speciesEs": "Humano",
             "titleDescriptionEn":"She was raised as a servant of Emperor Palpatine and went on to become a high-level agent capable of using the Force",
             "titleDescriptionEs":"Fue criada como servidora del Emperador Palpatine y llegó a convertirse en una agente de alto nivel capaz de usar la Fuerza",
             "descriptionEn": "Mara Jade Skywalker was during different stages of her life, a Hand of the Emperor, a smuggler, and later a Jedi Master as part of the Jedi High Council.",
